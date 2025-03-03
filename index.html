@@ -8,7 +8,15 @@
 </head>
 <body>
     <div id="particles"></div>
-    <p class="header">Cats Shop</p>
+    <div class="header">
+        <p class="title">Cats Shop</p>
+        <div class="settings">
+            <img src="images/engranaje.png" alt="Configuración" id="settings-icon">
+            <div id="settings-menu">
+                <p>Este botón no hace nada</p>
+            </div>
+        </div>
+    </div>
     <div class="products-container">
         <div class="product" onclick="redirectToDescription('producto1.html')">
             <img src="images/imagen1.jpg" alt="Producto 1" class="product-image">
@@ -25,9 +33,27 @@
             </div>
         </div>
     </div>
+    <div class="about-section">
+        <div class="about-text">¿Qué somos?</div>
+        <img src="images/imagen3.jpg" alt="Descripción de imagen" class="about-image">
+        <p class="about-description">Somos una distribuidora de gatos entrenados para ayudarte en el hogar</p>
+        <div class="contact-section">
+            <p class="contact-text">Llama al +52 3345 6787</p>
+            <a href="https://www.instagram.com/tu_usuario_personalizado" target="_blank">
+                <img src="images/instagram.png" alt="Instagram" class="social-icon">
+            </a>
+            <a href="https://wa.me/tu_numero_telefonico_personalizado" target="_blank">
+                <img src="images/whatsapp.png" alt="WhatsApp" class="social-icon">
+            </a>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
 
 
 
